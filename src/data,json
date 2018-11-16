@@ -1,8 +1,8 @@
 {
   "stats": {
-                        "postsCount": 10,
-                        "threadsCount": 20,
-                        "usersCount": 30,
-                        "usersOnline": 40
+    "postsCount": 10,
+    "threadsCount": 20,
+    "usersCount": 30,
+    "usersOnline": 40
   }
 }
