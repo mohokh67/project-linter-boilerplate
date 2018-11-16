@@ -1,4 +1,4 @@
-##
+## Notes
 
 The `husky` package will pick [git hooks](https://git-scm.com/docs/githooks). That's why this order is important.
 
