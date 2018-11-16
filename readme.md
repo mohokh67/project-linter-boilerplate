@@ -10,9 +10,19 @@ git init
 npm install
 ```
 
-### For VSCode
+### VSCode
 
-> add following setting to vscode setting
+> Follow these steps in vscode:
+
+1. Install following packages:
+
+```bash
+code --install-extension dbaeumer.vscode-eslint
+
+code --install-extension esbenp.prettier-vscode
+```
+
+2. Add following settings
 
 ```JSON
 "editor.formatOnSave": true,
