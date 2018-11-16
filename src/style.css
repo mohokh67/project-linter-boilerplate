@@ -1,0 +1,25 @@
+.order-enter {
+  -webkit-transform: translateX(-120%);
+  transform: translateX(-120%);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  max-height: 0;
+  padding: 0 !important;
+}
+.order-enter.order-enter-active {
+  max-height: 60px;
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+  padding: 2rem 0 !important;
+}
+.order-exit {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+}
+.order-exit.order-exit-active {
+  -webkit-transform: translateX(120%);
+  transform: translateX(120%);
+  padding: 0;
+}
