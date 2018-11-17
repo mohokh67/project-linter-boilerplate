@@ -22,6 +22,7 @@ module.exports = {
     'class-methods-use-this': 0,
     'comma-dangle': ['error', 'never'],
     'no-console': ['error', { 'allow': ['warn', 'log'] }],
+    'prettier/prettier': ['error', { 'singleQuote': true }],
 
     // allow paren-less arrow functions
     'arrow-parens': process.env.NODE_ENV === 'production' ? 2 : 0,
