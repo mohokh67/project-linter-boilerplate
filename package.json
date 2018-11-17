@@ -14,8 +14,8 @@
     }
   },
   "lint-staged": {
-    "src/**/*.{js,css}": [
-      "./node_modules/.bin/prettier --write",
+    "*.{js,json,css,md}": [
+      "prettier --single-quote --write",
       "git add"
     ]
   },
