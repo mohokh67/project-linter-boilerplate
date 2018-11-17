@@ -8,6 +8,6 @@ const removeEmptyProperties = object => {
 
   return objectCopy;
 };
-console.log(" some log");
+console.log("some log");
 
 export default { removeEmptyProperties };
