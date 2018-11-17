@@ -33,3 +33,10 @@ code --install-extension esbenp.prettier-vscode
   "eslint.alwaysShowStatus": true,
   "prettier.disableLanguages": ["js"]
 ```
+
+### Useful links
+
+- https://prettier.io/docs/en/cli.html
+- https://prettier.io/docs/en/precommit.html
+- https://prettier.io/docs/en/options.html
+- https://prettier.io/docs/en/eslint.html
