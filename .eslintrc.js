@@ -23,6 +23,7 @@ module.exports = {
     'comma-dangle': ['error', 'never'],
     'no-console': ['error', { 'allow': ['warn', 'log'] }],
     'prettier/prettier': ['error', { 'singleQuote': true }],
+    'import/prefer-default-export': 'off',
 
     // allow paren-less arrow functions
     'arrow-parens': process.env.NODE_ENV === 'production' ? 2 : 0,
