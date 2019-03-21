@@ -1,5 +1,9 @@
 ## Notes
 
+Link to video 1: https://youtu.be/Iu9iK565uQY Eslint and Prettier with VSCode
+
+Link to video 2: https://youtu.be/-qHA6zbOdLc Git hooks with Husky
+
 The `husky` package will pick [git hooks](https://git-scm.com/docs/githooks). That's why this order is important.
 
 ```bash
